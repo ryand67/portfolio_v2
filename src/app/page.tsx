@@ -3,6 +3,7 @@ import { Analytics } from '@vercel/analytics/react';
 import SocialLogo from './components/socialLogo';
 import githubLogo from './assets/github.png';
 import linkedinLogo from './assets/linkedin.png';
+import resumeLogo from './assets/resume.png';
 
 export default function Home() {
   return (
@@ -16,6 +17,10 @@ export default function Home() {
             />
             <SocialLogo href="https://www.linkedin.com/in/ryandevenney67" 
                 logo={linkedinLogo}
+                alt="LinkedIn"
+            />
+            <SocialLogo href="RyanDevenney_Resume.pdf" 
+                logo={resumeLogo}
                 alt="LinkedIn"
             />
         </div>

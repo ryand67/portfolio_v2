@@ -5,7 +5,7 @@ type SocialProps = {
     href: string;
     extraClass?: string;
     logo: StaticImageData;
-    alt: string
+    alt: string;
 }
 
 export default function SocialLogo({ href, extraClass, logo, alt }: SocialProps) {
