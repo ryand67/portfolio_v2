@@ -7,7 +7,7 @@ import resumeLogo from './assets/resume.png';
 
 export default function Home() {
     return (
-        <main className="bg-black flex justify-center min-h-screen h-screen flex-col items-center p-24">
+        <main className="bg-black text-white flex justify-center min-h-screen h-screen flex-col items-center p-24">
             <h1 className="text-6xl text-center font-mono sm:text-8xl">Ryan</h1>
             <h1 className="text-6xl text-center font-mono sm:text-8xl">Devenney</h1>
             <h4 className="hidden font-mono text-xl sm:flex">Backend Engineer | Vim Enthusiast</h4>
