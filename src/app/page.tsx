@@ -1,5 +1,3 @@
-import { Analytics } from '@vercel/analytics/react';
-
 import SocialLogo from './components/socialLogo';
 import githubLogo from './assets/github.png';
 import linkedinLogo from './assets/linkedin.png';
@@ -25,7 +23,6 @@ export default function Home() {
                 alt="LinkedIn"
             />
         </div>
-        <Analytics />
     </main>
   )
 }
