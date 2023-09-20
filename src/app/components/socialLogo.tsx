@@ -10,15 +10,11 @@ type SocialProps = {
 }
 
 export default function SocialLogo({ href, extraClass, logo, alt, logoHw }: SocialProps) {
-    const logoHW = logoHw ?? 65;
-
     return (
     <Link href={href} target='_blank'>
-        <Image className={`p-3 mx-2 ${extraClass} hover:bg-opacity-20 hover:bg-zinc-50 hover:rounded`} 
+        <Image className={`p-3 mx-2 ${extraClass} hover:bg-opacity-20 hover:bg-zinc-50 hover:rounded h-[65px] w-[65px] sm:h-[75px] sm:w-[75px]`} 
             src={logo} 
             alt={alt} 
-            width={logoHW} 
-            height={logoHW}
         />
     </Link>
    )
