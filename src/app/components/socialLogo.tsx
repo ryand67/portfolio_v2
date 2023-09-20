@@ -6,10 +6,11 @@ type SocialProps = {
     extraClass?: string;
     logo: StaticImageData;
     alt: string;
+    logoHw?: number | null;
 }
 
-export default function SocialLogo({ href, extraClass, logo, alt }: SocialProps) {
-    const logoHW = 65;
+export default function SocialLogo({ href, extraClass, logo, alt, logoHw }: SocialProps) {
+    const logoHW = logoHw ?? 65;
 
     return (
     <Link href={href} target='_blank'>
