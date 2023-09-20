@@ -25,7 +25,7 @@ export default function Home() {
                 alt="LinkedIn"
             />
         </div>
-        <Analytics mode='production' />
+        <Analytics />
     </main>
   )
 }
